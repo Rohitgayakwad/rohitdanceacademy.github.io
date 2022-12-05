@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Rohit Dance Academy
+    block scripts
+    block style 
+  body
+    nav#navbar 
+       ul 
+        div#logo 
+          img(src="/static/img/logo.png")
+          li.list #[a(href="/") Home] 
+          li.list #[a(href="/") About] 
+          li.list #[a(href="/") Services] 
+          li.list #[a(href="/contact") Contact Us]
+
+        button.btn #[a(href='/signup') Sign Up]
+
+    block content
+    footer#footer 
+        | Copyright @ 2019 RohitDanceAcademy.com

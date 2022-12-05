@@ -1,0 +1,58 @@
+//- index.pug
+doctype html
+html
+  head
+    title Rohit Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+       ul 
+        div#logo 
+          img(src="/static/img/logo.png")
+          li.list #[a(href="/") Home] 
+          li.list #[a(href="/") About] 
+          li.list #[a(href="/") Services] 
+          li.list #[a(href="/") Contact Us] 
+  
+    section#introSection 
+        div.big DANCE FOR EVERYONE 
+        div.small Its inside you!  Make it Precious.
+
+    section#missionSection 
+        h2 Our Mission 
+        div.card 
+              h3 Provide professional dance instruction
+              div.card-box 
+                div.card-img 
+                  img(src="/static/img/1.png")
+                div.card-content 
+                  p HIP HOP DANCE
+        div.card 
+             h3 Appreciation for the art of dance in a safe 
+             div.card-box 
+                div.card-img 
+                  img(src="/static/img/2.png")
+                div.card-content 
+                  p POPPING
+                  
+        div.card 
+             h3 High quality studio environment 
+             div.card-box 
+                div.card-img 
+                  img(src="/static/img/3.png")
+                div.card-content 
+                  p BALLET DANCE  
+
+    section#sponsorsSection 
+        h2 Our Sponsors
+        div#sponsors 
+          img(src="/static/img/logo1.png" alt="Sponsor Image" class="spImage")
+          img(src="/static/img/logo2.png" alt="Sponsor Image" class="spImage")
+          img(src="/static/img/logo3.png" alt="Sponsor Image" class="spImage")
+          img(src="/static/img/logo4.png" alt="Sponsor Image" class="spImage")
+
+    footer#footer 
+        | Copyright @ 2019 RohitDanceAcademy.com   
+    script
+      include ../static/index.js

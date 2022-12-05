@@ -1,0 +1,46 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content  
+    section#introSection 
+        div.big DANCE FOR EVERYONE 
+        div.small Its inside you!  Make it Precious.
+
+    section#missionSection 
+        h2 Our Mission 
+        div.card 
+              h3 Provide professional dance instruction
+              div.card-box 
+                div.card-img 
+                  img(src="/static/img/1.png")
+                div.card-content 
+                  p HIP HOP DANCE
+        div.card 
+             h3 Appreciation for the art of dance in a safe 
+             div.card-box 
+                div.card-img 
+                  img(src="/static/img/2.png")
+                div.card-content 
+                  p POPPING
+                  
+        div.card 
+             h3 High quality studio environment 
+             div.card-box 
+                div.card-img 
+                  img(src="/static/img/3.png")
+                div.card-content 
+                  p BALLET DANCE  
+
+    section#sponsorsSection 
+        h2 Our Sponsors
+        div#sponsors 
+          img(src="/static/img/logo1.png" alt="Sponsor Image" class="spImage")
+          img(src="/static/img/logo2.png" alt="Sponsor Image" class="spImage")
+          img(src="/static/img/logo3.png" alt="Sponsor Image" class="spImage")
+          img(src="/static/img/logo4.png" alt="Sponsor Image" class="spImage")

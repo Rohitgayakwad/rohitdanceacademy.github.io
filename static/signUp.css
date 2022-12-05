@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto&display=swap');
+h1{
+    text-align: center;
+    margin: 12px;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 45px;
+}
+
+.myInput{
+    width: 402px;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 7px;
+    border: 2px solid #0087bd;
+    font-size: 15px;
+    outline: none; 
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 63vh;
+}
+
+
+
